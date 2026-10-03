@@ -8,13 +8,14 @@ Single-page static site (`index.html`) hosted free on GitHub Pages.
 3. Site goes live at `https://muly-rav.github.io/mrus/` within a minute or two.
    Note: on a free GitHub plan, Pages only works if the repo is **public**.
 
-## Custom domain (e.g. www.mrus.com)
-1. Settings → Pages → Custom domain: `www.mrus.com` → Save, then tick **Enforce HTTPS**.
-2. At the domain registrar's DNS:
+## Custom domain (www.mrus.asia, DNS at GoDaddy)
+1. Settings → Pages → Custom domain: `www.mrus.asia` (also set by the `CNAME` file) → Save, then tick **Enforce HTTPS**.
+2. At GoDaddy → My Products → mrus.asia → DNS:
    - `CNAME` record: `www` → `muly-rav.github.io`
-   - `A` records for the bare domain `mrus.com`:
+   - `A` records (name `@`) for the bare domain `mrus.asia`:
      `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - Leave the existing `MX` (email) records alone.
+   - Delete GoDaddy's default `A @` ("Parked") record and any old `www` record first.
+   - Leave the existing `MX` / email records alone.
 
 ## Contact form
 The form posts to [FormSubmit](https://formsubmit.co) (free, no account) and emails
