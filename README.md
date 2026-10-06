@@ -19,6 +19,6 @@ Single-page static site (`index.html`) hosted free on GitHub Pages.
 
 ## Contact form
 The form posts to [FormSubmit](https://formsubmit.co) (free, no account) and emails
-`muly@mrus.com`. **One-time activation:** after the site is live, submit the form
-once; FormSubmit sends a confirmation email to muly@mrus.com — click the link in it.
+`muly@mrus.asia`. **One-time activation:** after the site is live, submit the form
+once; FormSubmit sends a confirmation email to muly@mrus.asia — click the link in it.
 Every submission after that is delivered to the inbox (check spam the first time).
